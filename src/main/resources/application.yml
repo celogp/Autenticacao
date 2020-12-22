@@ -1,0 +1,38 @@
+#
+#PostGreSql
+#
+#jpa:
+#    database: postgresql
+#    hibernate:
+#      ddl-auto: validate
+#    properties:
+#      hibernate:
+#        format_sql: true
+#    show-sql: true
+#  
+#  datasource:
+#    url: jdbc:postgresql://drona.db.elephantsql.com:5432/eezntech
+#    username: eezntech
+#    password: jWPJNXeICJIVfi9-RV9cKJD21dPk3Zqn
+#    platform: postgresql
+#    driver-class-name: org.postgresql.Driver
+
+#
+#Derby
+#
+spring:
+  jpa:
+    database: derby
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+  
+  datasource:
+    url: jdbc:derby://localhost:1527/sw1techdb;create=true
+    driver-class-name: org.apache.derby.client.ClientAutoloadedDriver
+  
+  flyway:
+    baseline-on-migrate: true
