@@ -1,23 +1,4 @@
 #
-#PostGreSql
-#
-#jpa:
-#    database: postgresql
-#    hibernate:
-#      ddl-auto: validate
-#    properties:
-#      hibernate:
-#        format_sql: true
-#    show-sql: true
-#  
-#  datasource:
-#    url: jdbc:postgresql://drona.db.elephantsql.com:5432/eezntech
-#    username: eezntech
-#    password: jWPJNXeICJIVfi9-RV9cKJD21dPk3Zqn
-#    platform: postgresql
-#    driver-class-name: org.postgresql.Driver
-
-#
 #Derby
 #
 spring:
